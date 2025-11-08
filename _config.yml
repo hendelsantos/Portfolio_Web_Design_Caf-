@@ -1,0 +1,46 @@
+# Arquivo de configuração para GitHub Pages
+# Este arquivo garante que o GitHub Pages sirva corretamente os arquivos
+
+# Configurações básicas
+safe: true
+highlighter: rouge
+markdown: kramdown
+incremental: false
+
+# Plugins permitidos pelo GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configurações de URL
+# baseurl: "/Portfolio_Web_Design_Caf-"  # Descomente se necessário
+
+# Configurações de build
+exclude:
+  - README.md
+  - NOVO-DESIGN-README.md
+  - DEPLOY.md
+  - ENTREGA_FINAL.md
+  - .gitignore
+  - node_modules/
+  - package*.json
+
+# Configurações de arquivos estáticos
+include:
+  - _redirects
+
+# Configurações de SEO
+title: "AROMA Coffee House - Portfolio Web Design"
+description: "Landing page moderna para cafeteria premium. Projeto de portfólio demonstrando habilidades em web design, UX/UI e desenvolvimento frontend."
+author: "Hendel Santos"
+url: "https://hendelsantos.github.io"
+baseurl: "/Portfolio_Web_Design_Caf-"
+
+# Social media
+social:
+  github: hendelsantos
+  linkedin: hendelsantos
+
+# Analytics (opcional)
+# google_analytics: UA-XXXXXXXXX-X
