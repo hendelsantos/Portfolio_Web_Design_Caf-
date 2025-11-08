@@ -1,0 +1,48 @@
+{
+  "name": "aroma-coffee-portfolio",
+  "version": "1.0.0",
+  "description": "Landing page moderna para cafeteria premium - Portfolio Web Design",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Static site - no build needed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "portfolio",
+    "web-design",
+    "landing-page",
+    "coffee",
+    "responsive",
+    "javascript",
+    "html5",
+    "css3"
+  ],
+  "author": {
+    "name": "Hendel Santos",
+    "email": "contato@hendelsantos.dev",
+    "url": "https://hendelsantos.dev"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "compression": "^1.7.4",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hendelsantos/Portfolio_Web_Design_Caf-.git"
+  },
+  "homepage": "https://portfolio-web-design-caf.up.railway.app",
+  "bugs": {
+    "url": "https://github.com/hendelsantos/Portfolio_Web_Design_Caf-/issues"
+  }
+}
