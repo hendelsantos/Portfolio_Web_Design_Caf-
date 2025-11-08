@@ -1,0 +1,46 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brownie" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d2914;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0e0a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sauce" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b4e37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d2914;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefcf8"/>
+  
+  <!-- Plate -->
+  <ellipse cx="150" cy="175" rx="110" ry="20" fill="#f8f3e9"/>
+  <ellipse cx="150" cy="173" rx="105" ry="17" fill="#ffffff"/>
+  
+  <!-- Brownie -->
+  <rect x="100" y="120" width="100" height="40" rx="5" fill="url(#brownie)"/>
+  
+  <!-- Brownie texture -->
+  <rect x="105" y="125" width="90" height="5" fill="#1a0e0a" opacity="0.5"/>
+  <rect x="105" y="140" width="90" height="3" fill="#1a0e0a" opacity="0.3"/>
+  <rect x="105" y="150" width="90" height="5" fill="#1a0e0a" opacity="0.5"/>
+  
+  <!-- Chocolate sauce -->
+  <path d="M110 160 Q130 170 150 165 Q170 160 190 170 Q200 175 190 180 Q170 175 150 180 Q130 185 110 180 Q100 175 110 160" fill="url(#sauce)"/>
+  
+  <!-- Nuts -->
+  <ellipse cx="120" cy="135" rx="3" ry="4" fill="#c9a876" transform="rotate(-20 120 135)"/>
+  <ellipse cx="140" cy="130" rx="3" ry="4" fill="#c9a876" transform="rotate(30 140 130)"/>
+  <ellipse cx="170" cy="145" rx="3" ry="4" fill="#c9a876" transform="rotate(-45 170 145)"/>
+  <ellipse cx="185" cy="135" rx="3" ry="4" fill="#c9a876" transform="rotate(15 185 135)"/>
+  
+  <!-- Powdered sugar -->
+  <circle cx="115" cy="125" r="1" fill="#f8f3e9" opacity="0.8"/>
+  <circle cx="165" cy="128" r="1.5" fill="#f8f3e9" opacity="0.8"/>
+  <circle cx="180" cy="140" r="1" fill="#f8f3e9" opacity="0.8"/>
+  <circle cx="125" cy="150" r="1.5" fill="#f8f3e9" opacity="0.8"/>
+  
+  <!-- Chocolate chips -->
+  <circle cx="130" cy="140" r="2" fill="#1a0e0a"/>
+  <circle cx="160" cy="135" r="2" fill="#1a0e0a"/>
+  <circle cx="175" cy="150" r="1.5" fill="#1a0e0a"/>
+</svg>

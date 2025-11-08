@@ -1,0 +1,66 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af7a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9a876;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="chai-liquid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5a3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b4e37;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefcf8"/>
+  
+  <!-- Saucer -->
+  <ellipse cx="150" cy="175" rx="90" ry="18" fill="#c9a876"/>
+  <ellipse cx="150" cy="173" rx="85" ry="15" fill="#f8f3e9"/>
+  
+  <!-- Mug -->
+  <path d="M90 110 L210 110 L200 160 L100 160 Z" fill="url(#chai)"/>
+  
+  <!-- Chai liquid -->
+  <ellipse cx="150" cy="120" rx="55" ry="8" fill="url(#chai-liquid)"/>
+  
+  <!-- Milk foam -->
+  <ellipse cx="150" cy="115" rx="50" ry="10" fill="#fefcf8"/>
+  <circle cx="145" cy="110" r="5" fill="#f8f3e9"/>
+  <circle cx="155" cy="108" r="4" fill="#f8f3e9"/>
+  
+  <!-- Cinnamon dust -->
+  <circle cx="140" cy="112" r="0.5" fill="#c9a876"/>
+  <circle cx="150" cy="110" r="0.5" fill="#c9a876"/>
+  <circle cx="160" cy="113" r="0.5" fill="#c9a876"/>
+  <circle cx="148" cy="115" r="0.5" fill="#c9a876"/>
+  
+  <!-- Handle -->
+  <path d="M210 125 Q235 135 235 155 Q235 175 210 165" fill="none" stroke="#c9a876" stroke-width="5"/>
+  
+  <!-- Spices around -->
+  <!-- Cinnamon sticks -->
+  <rect x="60" y="60" width="3" height="25" fill="#8b5a3c" rx="1"/>
+  <rect x="65" y="58" width="3" height="25" fill="#8b5a3c" rx="1"/>
+  
+  <rect x="235" y="55" width="3" height="20" fill="#8b5a3c" rx="1"/>
+  <rect x="240" y="53" width="3" height="20" fill="#8b5a3c" rx="1"/>
+  
+  <!-- Star anise -->
+  <g transform="translate(80, 100)">
+    <path d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z" fill="#6b4e37"/>
+    <circle cx="0" cy="0" r="2" fill="#3d2914"/>
+  </g>
+  
+  <g transform="translate(220, 90)">
+    <path d="M0 -6 L1.5 -1.5 L6 0 L1.5 1.5 L0 6 L-1.5 1.5 L-6 0 L-1.5 -1.5 Z" fill="#6b4e37"/>
+    <circle cx="0" cy="0" r="1.5" fill="#3d2914"/>
+  </g>
+  
+  <!-- Cardamom pods -->
+  <ellipse cx="70" cy="140" rx="2" ry="5" fill="#a8b5a0" transform="rotate(-20 70 140)"/>
+  <ellipse cx="230" cy="130" rx="2" ry="5" fill="#a8b5a0" transform="rotate(30 230 130)"/>
+  
+  <!-- Steam -->
+  <path d="M130 105 Q135 90 130 75" stroke="#f8f3e9" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M150 105 Q155 90 150 75" stroke="#f8f3e9" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M170 105 Q175 90 170 75" stroke="#f8f3e9" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>

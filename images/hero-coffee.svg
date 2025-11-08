@@ -1,0 +1,44 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coffeeCup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d2914;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6b4e37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9a876;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coffee" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b4e37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d2914;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="steam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f3e9;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f0ead6;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="#fefcf8"/>
+  
+  <!-- Coffee cup -->
+  <path d="M120 200 L280 200 L270 330 L130 330 Z" fill="url(#coffeeCup)" stroke="#3d2914" stroke-width="3"/>
+  
+  <!-- Coffee liquid -->
+  <ellipse cx="200" cy="210" rx="75" ry="8" fill="url(#coffee)"/>
+  
+  <!-- Handle -->
+  <path d="M280 220 Q320 240 320 280 Q320 320 280 300" fill="none" stroke="#3d2914" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Steam -->
+  <path d="M180 190 Q185 170 180 150 Q175 130 180 110" fill="none" stroke="url(#steam)" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M200 190 Q205 170 200 150 Q195 130 200 110" fill="none" stroke="url(#steam)" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+  <path d="M220 190 Q225 170 220 150 Q215 130 220 110" fill="none" stroke="url(#steam)" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  
+  <!-- Coffee beans decoration -->
+  <ellipse cx="150" cy="120" rx="8" ry="12" fill="#3d2914" transform="rotate(-20 150 120)"/>
+  <line x1="150" y1="110" x2="150" y2="130" stroke="#6b4e37" stroke-width="1"/>
+  
+  <ellipse cx="250" cy="100" rx="8" ry="12" fill="#3d2914" transform="rotate(30 250 100)"/>
+  <line x1="250" y1="90" x2="250" y2="110" stroke="#6b4e37" stroke-width="1"/>
+  
+  <ellipse cx="320" cy="150" rx="8" ry="12" fill="#3d2914" transform="rotate(-45 320 150)"/>
+  <line x1="320" y1="140" x2="320" y2="160" stroke="#6b4e37" stroke-width="1"/>
+</svg>

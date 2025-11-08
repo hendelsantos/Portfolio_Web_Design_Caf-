@@ -1,0 +1,62 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tiramisu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f3e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0ead6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coffee-layer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b4e37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3d2914;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefcf8"/>
+  
+  <!-- Plate -->
+  <ellipse cx="150" cy="175" rx="120" ry="18" fill="#f8f3e9"/>
+  <ellipse cx="150" cy="173" rx="115" ry="15" fill="#ffffff"/>
+  
+  <!-- Glass dish -->
+  <path d="M70 120 L230 120 Q235 125 230 165 L70 165 Q65 125 70 120" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- Bottom layer (mascarpone) -->
+  <rect x="75" y="150" width="150" height="12" fill="url(#tiramisu)"/>
+  
+  <!-- Coffee layer -->
+  <rect x="75" y="140" width="150" height="8" fill="url(#coffee-layer)"/>
+  
+  <!-- Middle layer (mascarpone) -->
+  <rect x="75" y="132" width="150" height="8" fill="url(#tiramisu)"/>
+  
+  <!-- Top coffee layer -->
+  <rect x="75" y="125" width="150" height="6" fill="url(#coffee-layer)"/>
+  
+  <!-- Top mascarpone -->
+  <rect x="75" y="120" width="150" height="5" fill="url(#tiramisu)"/>
+  
+  <!-- Cocoa powder -->
+  <rect x="75" y="118" width="150" height="2" fill="#3d2914" opacity="0.8"/>
+  
+  <!-- Cocoa powder texture -->
+  <circle cx="90" cy="119" r="0.5" fill="#1a0e0a"/>
+  <circle cx="110" cy="118.5" r="0.5" fill="#1a0e0a"/>
+  <circle cx="130" cy="119" r="0.5" fill="#1a0e0a"/>
+  <circle cx="150" cy="118.5" r="0.5" fill="#1a0e0a"/>
+  <circle cx="170" cy="119" r="0.5" fill="#1a0e0a"/>
+  <circle cx="190" cy="118.5" r="0.5" fill="#1a0e0a"/>
+  <circle cx="210" cy="119" r="0.5" fill="#1a0e0a"/>
+  
+  <!-- Coffee beans decoration -->
+  <g transform="translate(50, 80)">
+    <ellipse rx="4" ry="7" fill="#3d2914" transform="rotate(-30)"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#6b4e37" stroke-width="0.8"/>
+  </g>
+  <g transform="translate(250, 70)">
+    <ellipse rx="4" ry="7" fill="#3d2914" transform="rotate(45)"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#6b4e37" stroke-width="0.8"/>
+  </g>
+  
+  <!-- Spoon -->
+  <path d="M40 100 L50 110 L48 112 L38 102 Z" fill="#c0c0c0"/>
+  <path d="M40 100 Q35 95 40 90 Q45 95 40 100" fill="#c0c0c0"/>
+</svg>

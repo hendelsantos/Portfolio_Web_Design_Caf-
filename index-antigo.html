@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Aroma - Sabores Únicos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <div class="nav__brand">
+        <i class="fas fa-coffee nav__brand-icon"></i>
+        <span class="nav__brand-text">Café Aroma</span>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Início</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Sobre</a>
+          </li>
+          <li class="nav__item">
+            <a href="#menu" class="nav__link">Cardápio</a>
+          </li>
+          <li class="nav__item">
+            <a href="#special" class="nav__link">Promoções</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contato</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero__container container">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          Desperte seus sentidos com o
+          <span class="hero__title-accent">melhor café</span>
+        </h1>
+        <p class="hero__description">
+          Experimente grãos selecionados, preparados com maestria e servidos com carinho.
+          Cada xícara é uma experiência única que desperta seus sentidos.
+        </p>
+        <div class="hero__buttons">
+          <a href="#menu" class="btn btn--primary">
+            <i class="fas fa-utensils"></i>
+            Ver Cardápio
+          </a>
+          <a href="#contact" class="btn btn--secondary">
+            <i class="fas fa-map-marker-alt"></i>
+            Localização
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <div class="hero__image-bg"></div>
+        <img src="images/hero-coffee.svg" alt="Xícara de café artesanal" class="hero__img">
+      </div>
+    </div>
+
+    <div class="hero__scroll">
+      <a href="#about" class="hero__scroll-link">
+        <i class="fas fa-mouse"></i>
+        <span>Role para descobrir</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__subtitle">Nossa História</span>
+        <h2 class="section__title">Paixão pelo café desde 1995</h2>
+      </div>
+
+      <div class="about__container">
+        <div class="about__content">
+          <p class="about__description">
+            Há mais de 25 anos, nossa cafeteria tem sido um refúgio para amantes do café.
+            Combinamos tradição e inovação para criar experiências únicas, usando apenas
+            grãos premium cuidadosamente selecionados.
+          </p>
+
+          <div class="about__features">
+            <div class="about__feature">
+              <i class="fas fa-seedling about__feature-icon"></i>
+              <h3 class="about__feature-title">Grãos Premium</h3>
+              <p class="about__feature-text">Selecionados das melhores fazendas</p>
+            </div>
+
+            <div class="about__feature">
+              <i class="fas fa-heart about__feature-icon"></i>
+              <h3 class="about__feature-title">Feito com Amor</h3>
+              <p class="about__feature-text">Cada xícara preparada com cuidado</p>
+            </div>
+
+            <div class="about__feature">
+              <i class="fas fa-clock about__feature-icon"></i>
+              <h3 class="about__feature-title">Tradição</h3>
+              <p class="about__feature-text">Mais de 25 anos de experiência</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__image">
+          <img src="images/about-coffee.svg" alt="Barista preparando café artesanal" class="about__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__subtitle">Cardápio</span>
+        <h2 class="section__title">Sabores que conquistam</h2>
+      </div>
+
+      <div class="menu__tabs">
+        <button class="menu__tab active" data-target="cafes">
+          <i class="fas fa-coffee"></i>
+          Cafés
+        </button>
+        <button class="menu__tab" data-target="doces">
+          <i class="fas fa-cookie-bite"></i>
+          Doces
+        </button>
+        <button class="menu__tab" data-target="bebidas">
+          <i class="fas fa-glass-whiskey"></i>
+          Bebidas
+        </button>
+      </div>
+
+      <div class="menu__content">
+        <!-- Cafés -->
+        <div class="menu__category active" id="cafes">
+          <div class="menu__grid">
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/espresso.svg" alt="Espresso Tradicional">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Espresso Tradicional</h3>
+                <p class="menu__item-description">Café puro e intenso, extraído na pressão perfeita</p>
+                <span class="menu__item-price">R$ 8,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/cappuccino.svg" alt="Cappuccino Cremoso">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Cappuccino Cremoso</h3>
+                <p class="menu__item-description">Espresso com leite vaporizado e espuma cremosa</p>
+                <span class="menu__item-price">R$ 12,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/latte.svg" alt="Café Latte">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Café Latte</h3>
+                <p class="menu__item-description">Combinação suave de espresso e leite vaporizado</p>
+                <span class="menu__item-price">R$ 14,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/mocha.svg" alt="Mocha Especial">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Mocha Especial</h3>
+                <p class="menu__item-description">Espresso com chocolate belga e chantilly</p>
+                <span class="menu__item-price">R$ 16,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Doces -->
+        <div class="menu__category" id="doces">
+          <div class="menu__grid">
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/croissant.svg" alt="Croissant Artesanal">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Croissant Artesanal</h3>
+                <p class="menu__item-description">Massa folhada crocante com recheios variados</p>
+                <span class="menu__item-price">R$ 9,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/brownie.svg" alt="Brownie de Chocolate">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Brownie de Chocolate</h3>
+                <p class="menu__item-description">Brownie úmido com nozes e calda de chocolate</p>
+                <span class="menu__item-price">R$ 11,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/cheesecake.svg" alt="Cheesecake Fruits">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Cheesecake Fruits</h3>
+                <p class="menu__item-description">Cheesecake cremoso com calda de frutas vermelhas</p>
+                <span class="menu__item-price">R$ 15,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/tiramisu.svg" alt="Tiramisù Original">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Tiramisù Original</h3>
+                <p class="menu__item-description">Sobremesa italiana com café e mascarpone</p>
+                <span class="menu__item-price">R$ 18,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bebidas -->
+        <div class="menu__category" id="bebidas">
+          <div class="menu__grid">
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/iced-coffee.svg" alt="Café Gelado">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Café Gelado</h3>
+                <p class="menu__item-description">Espresso gelado com leite e cubos de gelo</p>
+                <span class="menu__item-price">R$ 10,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/smoothie.svg" alt="Smoothie Natural">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Smoothie Natural</h3>
+                <p class="menu__item-description">Bebida refrescante com frutas da estação</p>
+                <span class="menu__item-price">R$ 12,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/chai.svg" alt="Chai Latte">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Chai Latte</h3>
+                <p class="menu__item-description">Blend de especiarias com leite vaporizado</p>
+                <span class="menu__item-price">R$ 13,00</span>
+              </div>
+            </div>
+
+            <div class="menu__item">
+              <div class="menu__item-image">
+                <img src="images/hot-chocolate.svg" alt="Chocolate Quente">
+              </div>
+              <div class="menu__item-content">
+                <h3 class="menu__item-title">Chocolate Quente</h3>
+                <p class="menu__item-description">Chocolate belga cremoso com marshmallows</p>
+                <span class="menu__item-price">R$ 11,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Offers Section -->
+  <section class="special section" id="special">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__subtitle">Ofertas Especiais</span>
+        <h2 class="section__title">Promoções imperdíveis</h2>
+      </div>
+
+      <div class="special__container">
+        <div class="special__card">
+          <div class="special__card-header">
+            <i class="fas fa-percentage special__card-icon"></i>
+            <span class="special__card-badge">30% OFF</span>
+          </div>
+          <h3 class="special__card-title">Combo Manhã Perfeita</h3>
+          <p class="special__card-description">
+            Cappuccino + Croissant Artesanal.
+            Válido das 7h às 11h.
+          </p>
+          <div class="special__card-price">
+            <span class="special__card-old-price">R$ 21,00</span>
+            <span class="special__card-new-price">R$ 14,70</span>
+          </div>
+        </div>
+
+        <div class="special__card featured">
+          <div class="special__card-header">
+            <i class="fas fa-crown special__card-icon"></i>
+            <span class="special__card-badge">DESTAQUE</span>
+          </div>
+          <h3 class="special__card-title">Fidelidade Aroma</h3>
+          <p class="special__card-description">
+            Compre 9 cafés e ganhe o 10º gratuitamente.
+            Acumule pontos e desfrute!
+          </p>
+          <div class="special__card-price">
+            <span class="special__card-new-price">Grátis</span>
+          </div>
+        </div>
+
+        <div class="special__card">
+          <div class="special__card-header">
+            <i class="fas fa-heart special__card-icon"></i>
+            <span class="special__card-badge">DOCE</span>
+          </div>
+          <h3 class="special__card-title">Tarde Doce</h3>
+          <p class="special__card-description">
+            Qualquer sobremesa + bebida quente.
+            Válido das 14h às 18h.
+          </p>
+          <div class="special__card-price">
+            <span class="special__card-old-price">R$ 25,00</span>
+            <span class="special__card-new-price">R$ 19,90</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__subtitle">Venha nos visitar</span>
+        <h2 class="section__title">Entre em contato</h2>
+      </div>
+
+      <div class="contact__container">
+        <div class="contact__info">
+          <div class="contact__card">
+            <i class="fas fa-map-marker-alt contact__card-icon"></i>
+            <h3 class="contact__card-title">Localização</h3>
+            <p class="contact__card-text">
+              Rua dos Cafés, 123<br>
+              Centro - São Paulo, SP<br>
+              CEP: 01234-567
+            </p>
+          </div>
+
+          <div class="contact__card">
+            <i class="fas fa-clock contact__card-icon"></i>
+            <h3 class="contact__card-title">Horário</h3>
+            <p class="contact__card-text">
+              Segunda à Sexta: 7h às 22h<br>
+              Sábado: 8h às 23h<br>
+              Domingo: 8h às 20h
+            </p>
+          </div>
+
+          <div class="contact__card">
+            <i class="fas fa-phone contact__card-icon"></i>
+            <h3 class="contact__card-title">Contato</h3>
+            <p class="contact__card-text">
+              Telefone: (11) 9999-8888<br>
+              WhatsApp: (11) 9999-8888<br>
+              E-mail: contato@cafearoma.com.br
+            </p>
+          </div>
+        </div>
+
+        <div class="contact__form">
+          <h3 class="contact__form-title">Envie uma mensagem</h3>
+          <form class="form" id="contact-form">
+            <div class="form__group">
+              <input type="text" id="name" name="name" class="form__input" placeholder=" " required>
+              <label for="name" class="form__label">Nome completo</label>
+            </div>
+
+            <div class="form__group">
+              <input type="email" id="email" name="email" class="form__input" placeholder=" " required>
+              <label for="email" class="form__label">E-mail</label>
+            </div>
+
+            <div class="form__group">
+              <input type="tel" id="phone" name="phone" class="form__input" placeholder=" ">
+              <label for="phone" class="form__label">Telefone</label>
+            </div>
+
+            <div class="form__group">
+              <textarea id="message" name="message" class="form__input form__textarea" placeholder=" " required></textarea>
+              <label for="message" class="form__label">Mensagem</label>
+            </div>
+
+            <button type="submit" class="btn btn--primary form__submit">
+              <i class="fas fa-paper-plane"></i>
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__section">
+          <div class="footer__brand">
+            <i class="fas fa-coffee footer__brand-icon"></i>
+            <span class="footer__brand-text">Café Aroma</span>
+          </div>
+          <p class="footer__description">
+            Mais que uma cafeteria, somos um ponto de encontro para quem valoriza
+            momentos especiais e sabores únicos.
+          </p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="footer__social-link">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Links Rápidos</h3>
+          <ul class="footer__links">
+            <li><a href="#home" class="footer__link">Início</a></li>
+            <li><a href="#about" class="footer__link">Sobre</a></li>
+            <li><a href="#menu" class="footer__link">Cardápio</a></li>
+            <li><a href="#special" class="footer__link">Promoções</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h3 class="footer__title">Contato</h3>
+          <ul class="footer__contact">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              Rua dos Cafés, 123 - Centro
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              (11) 9999-8888
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              contato@cafearoma.com.br
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &copy; 2024 Café Aroma. Todos os direitos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#" class="back-to-top" id="back-to-top">
+    <i class="fas fa-chevron-up"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cappuccinoCup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f3e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4af7a;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="foam" cx="50%" cy="20%">
+      <stop offset="0%" style="stop-color:#fefcf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0ead6;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefcf8"/>
+  
+  <!-- Saucer -->
+  <ellipse cx="150" cy="170" rx="85" ry="18" fill="#d4af7a"/>
+  <ellipse cx="150" cy="168" rx="80" ry="15" fill="#f8f3e9"/>
+  
+  <!-- Cup -->
+  <path d="M90 110 L210 110 L200 155 L100 155 Z" fill="url(#cappuccinoCup)"/>
+  
+  <!-- Coffee -->
+  <ellipse cx="150" cy="115" rx="55" ry="8" fill="#6b4e37"/>
+  
+  <!-- Milk foam -->
+  <ellipse cx="150" cy="110" rx="55" ry="12" fill="url(#foam)"/>
+  
+  <!-- Latte art - heart -->
+  <path d="M150 105 Q145 100 135 105 Q130 110 135 115 Q150 125 150 125 Q150 125 165 115 Q170 110 165 105 Q155 100 150 105" fill="#c9a876"/>
+  
+  <!-- Handle -->
+  <path d="M210 125 Q235 135 235 155 Q235 175 210 165" fill="none" stroke="#d4af7a" stroke-width="5"/>
+  
+  <!-- Steam -->
+  <path d="M120 100 Q125 85 120 70" stroke="#f8f3e9" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M150 100 Q155 85 150 70" stroke="#f8f3e9" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M180 100 Q185 85 180 70" stroke="#f8f3e9" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>

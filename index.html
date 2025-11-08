@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AROMA Coffee House | Café Artesanal Premium</title>
+  <meta name="description" content="Experiência única em café artesanal premium. Ambiente moderno, grãos selecionados e o melhor da gastronomia contemporânea.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style-novo.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navigation" id="navigation">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <span class="brand-text">AROMA</span>
+      </div>
+      
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#menu" class="nav-link">Cardápio</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experiência</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+
+      <button class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">
+          Café <span class="highlight">Artesanal</span><br>
+          Experiência <span class="highlight">Única</span>
+        </h1>
+        <p class="hero-description">
+          Descobra sabores únicos em nosso espaço moderno. Cada xícara é uma experiência cuidadosamente preparada com grãos especiais selecionados.
+        </p>
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">Explorar Cardápio</a>
+          <a href="#about" class="btn btn-secondary">Nossa História</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+             alt="Café artesanal sendo preparado por barista especializado">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+               alt="Interior moderno da cafeteria AROMA">
+        </div>
+        <div class="about-content">
+          <h2 class="section-title">Nossa Paixão pelo Café Perfeito</h2>
+          <p class="about-text">
+            Há mais de uma década, nossa paixão pelo café move cada detalhe da experiência AROMA. 
+            Selecionamos grãos especiais de produtores locais e internacionais, criando blends únicos 
+            que despertam os sentidos.
+          </p>
+          <div class="stats">
+            <div class="stat-item">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Variedades de Grãos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Café Artesanal</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">1000+</span>
+              <span class="stat-label">Clientes Satisfeitos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="menu-header">
+        <h2 class="section-title">Nosso Cardápio Especial</h2>
+        <p class="section-subtitle">Cada item preparado com ingredientes selecionados e técnicas artesanais</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="coffees">Cafés Especiais</button>
+        <button class="tab-btn" data-tab="drinks">Bebidas</button>
+        <button class="tab-btn" data-tab="foods">Gastronomia</button>
+      </div>
+
+      <!-- Coffee Menu -->
+      <div class="menu-content active" id="coffees">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+                   alt="Espresso perfeito com crema dourada">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Espresso Signature</h3>
+              <p class="menu-item-description">Blend exclusivo com notas de chocolate amargo e caramelo</p>
+              <span class="menu-item-price">R$ 8,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2186&q=80" 
+                   alt="Cappuccino com arte latte em forma de coração">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Cappuccino Art</h3>
+              <p class="menu-item-description">Espuma cremosa com latte art personalizada</p>
+              <span class="menu-item-price">R$ 12,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" 
+                   alt="Café latte com arte em folha">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Flat White</h3>
+              <p class="menu-item-description">Café duplo com micro espuma aveludada</p>
+              <span class="menu-item-price">R$ 11,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+                   alt="V60 pour over sendo preparado">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">V60 Pour Over</h3>
+              <p class="menu-item-description">Método artesanal que realça os aromas únicos</p>
+              <span class="menu-item-price">R$ 15,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drinks Menu -->
+      <div class="menu-content" id="drinks">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2128&q=80" 
+                   alt="Iced coffee refrescante com gelo">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Cold Brew Especial</h3>
+              <p class="menu-item-description">Café extraído a frio por 12h, sabor suave e refrescante</p>
+              <span class="menu-item-price">R$ 13,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2291&q=80" 
+                   alt="Smoothie colorido de frutas vermelhas">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Smoothie Tropical</h3>
+              <p class="menu-item-description">Manga, maracujá e coco, naturalmente energizante</p>
+              <span class="menu-item-price">R$ 14,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1571091655789-405eb7a3a3a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" 
+                   alt="Chai latte aromático com especiarias">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Chai Artesanal</h3>
+              <p class="menu-item-description">Blend de especiarias com leite cremoso</p>
+              <span class="menu-item-price">R$ 10,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1542990253-0b8cddba9caa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+                   alt="Chocolate quente com marshmallows">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Chocolate Premium</h3>
+              <p class="menu-item-description">Chocolate belga 70% com chantilly artesanal</p>
+              <span class="menu-item-price">R$ 12,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food Menu -->
+      <div class="menu-content" id="foods">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80" 
+                   alt="Croissant dourado e crocante">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Croissant Francês</h3>
+              <p class="menu-item-description">Massa folhada artesanal, crocante e amanteigada</p>
+              <span class="menu-item-price">R$ 9,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80" 
+                   alt="Brownie de chocolate com nozes">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Brownie Supreme</h3>
+              <p class="menu-item-description">Chocolate 70%, nozes e cobertura de ganache</p>
+              <span class="menu-item-price">R$ 11,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                   alt="Cheesecake cremoso com frutas vermelhas">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Cheesecake NY</h3>
+              <p class="menu-item-description">Cremoso, base de biscoito, frutas vermelhas frescas</p>
+              <span class="menu-item-price">R$ 13,90</span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-image">
+              <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+                   alt="Tiramisù italiano tradicional">
+            </div>
+            <div class="menu-item-content">
+              <h3 class="menu-item-title">Tiramisù Clássico</h3>
+              <p class="menu-item-description">Receita italiana, mascarpone e café espresso</p>
+              <span class="menu-item-price">R$ 15,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="experience-content">
+        <h2 class="section-title">Mais que Café, uma Experiência</h2>
+        <p class="section-subtitle">Cada visita é uma jornada sensorial única</p>
+      </div>
+
+      <div class="experience-grid">
+        <div class="experience-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" 
+                 alt="Ambiente aconchegante da cafeteria">
+          </div>
+          <div class="card-content">
+            <i class="fas fa-heart"></i>
+            <h3>Ambiente Acolhedor</h3>
+            <p>Espaço pensado para relaxar, trabalhar ou socializar em total conforto</p>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2027&q=80" 
+                 alt="Barista especializado preparando café">
+          </div>
+          <div class="card-content">
+            <i class="fas fa-award"></i>
+            <h3>Baristas Especialistas</h3>
+            <p>Equipe certificada que domina as técnicas mais avançadas de preparo</p>
+          </div>
+        </div>
+
+        <div class="experience-card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2061&q=80" 
+                 alt="Grãos de café premium sendo selecionados">
+          </div>
+          <div class="card-content">
+            <i class="fas fa-leaf"></i>
+            <h3>Ingredientes Premium</h3>
+            <p>Seleção rigorosa de grãos especiais e ingredientes de primeira qualidade</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-content">
+        <div class="contact-info">
+          <h2 class="section-title">Visite Nossa Casa</h2>
+          <p class="section-subtitle">Estamos esperando por você no coração da cidade</p>
+          
+          <div class="info-grid">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Localização</h4>
+                <p>Rua das Flores, 123 - Centro<br>São Paulo, SP - 01234-567</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h4>Horários</h4>
+                <p>Segunda a Sexta: 7h às 22h<br>Sábado e Domingo: 8h às 23h</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Contato</h4>
+                <p>(11) 99999-9999<br>contato@aromacoffee.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form class="form" id="contactForm">
+            <h3>Fale Conosco</h3>
+            
+            <div class="form-group">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Seu Nome</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="email" name="email" required>
+              <label for="email">Seu E-mail</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="message" name="message" required></textarea>
+              <label for="message">Sua Mensagem</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="brand-text">AROMA</span>
+          <p>Café artesanal premium com paixão e qualidade desde 2010.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Navegação</h4>
+            <ul>
+              <li><a href="#hero">Início</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#menu">Cardápio</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Informações</h4>
+            <ul>
+              <li><a href="#">Política de Privacidade</a></li>
+              <li><a href="#">Termos de Uso</a></li>
+              <li><a href="#">Trabalhe Conosco</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 AROMA Coffee House. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script-novo.js"></script>
+</body>
+</html>

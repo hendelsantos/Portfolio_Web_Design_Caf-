@@ -1,0 +1,48 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cheesecake" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f3e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0ead6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="berries" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c62d42;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b1538;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefcf8"/>
+  
+  <!-- Plate -->
+  <ellipse cx="150" cy="180" rx="125" ry="15" fill="#f8f3e9"/>
+  <ellipse cx="150" cy="178" rx="120" ry="12" fill="#ffffff"/>
+  
+  <!-- Crust -->
+  <ellipse cx="150" cy="155" rx="70" ry="8" fill="#c9a876"/>
+  
+  <!-- Cheesecake -->
+  <path d="M80 130 L220 130 Q220 140 215 150 L85 150 Q80 140 80 130" fill="url(#cheesecake)"/>
+  <ellipse cx="150" cy="132" rx="70" ry="10" fill="#fefcf8"/>
+  
+  <!-- Berry sauce -->
+  <ellipse cx="150" cy="125" rx="65" ry="8" fill="url(#berries)" opacity="0.7"/>
+  
+  <!-- Berries -->
+  <circle cx="130" cy="120" r="4" fill="#c62d42"/>
+  <circle cx="145" cy="118" r="3" fill="#8b1538"/>
+  <circle cx="160" cy="122" r="4" fill="#c62d42"/>
+  <circle cx="175" cy="119" r="3" fill="#d52b45"/>
+  
+  <!-- Berry details -->
+  <circle cx="130" cy="120" r="1" fill="#fefcf8" opacity="0.8"/>
+  <circle cx="145" cy="118" r="0.8" fill="#fefcf8" opacity="0.8"/>
+  <circle cx="160" cy="122" r="1" fill="#fefcf8" opacity="0.8"/>
+  <circle cx="175" cy="119" r="0.8" fill="#fefcf8" opacity="0.8"/>
+  
+  <!-- Mint leaves -->
+  <ellipse cx="140" cy="115" rx="3" ry="8" fill="#4a7c59" transform="rotate(-20 140 115)"/>
+  <ellipse cx="165" cy="113" rx="3" ry="8" fill="#4a7c59" transform="rotate(25 165 113)"/>
+  
+  <!-- Sauce drips -->
+  <path d="M120 150 Q125 160 120 165" stroke="url(#berries)" stroke-width="2" fill="none"/>
+  <path d="M180 150 Q185 160 180 165" stroke="url(#berries)" stroke-width="2" fill="none"/>
+</svg>

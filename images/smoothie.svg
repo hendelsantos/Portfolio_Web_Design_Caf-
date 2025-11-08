@@ -1,0 +1,56 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="smoothie1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c44569;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="smoothie2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e67e22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefcf8"/>
+  
+  <!-- Table -->
+  <ellipse cx="150" cy="185" rx="110" ry="12" fill="#f0ead6"/>
+  
+  <!-- Glass -->
+  <path d="M120 80 L180 80 L175 170 L125 170 Z" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" opacity="0.9"/>
+  
+  <!-- Smoothie layers -->
+  <path d="M125 140 L175 140 L173 170 L127 170 Z" fill="url(#smoothie1)"/>
+  <path d="M125 110 L175 110 L175 140 L125 140 Z" fill="url(#smoothie2)"/>
+  <path d="M125 85 L175 85 L175 110 L125 110 Z" fill="url(#smoothie1)"/>
+  
+  <!-- Foam top -->
+  <ellipse cx="150" cy="85" rx="25" ry="8" fill="#fefcf8"/>
+  <circle cx="145" cy="80" r="4" fill="#f8f3e9"/>
+  <circle cx="155" cy="78" r="3" fill="#f8f3e9"/>
+  
+  <!-- Straw -->
+  <rect x="148" y="60" width="4" height="125" fill="#4a7c59" rx="2"/>
+  <ellipse cx="150" cy="65" rx="6" ry="3" fill="#4a7c59"/>
+  
+  <!-- Fruits decoration -->
+  <circle cx="90" cy="60" r="8" fill="#ff6b9d"/>
+  <path d="M90 52 L85 57 L90 62 L95 57 Z" fill="#27ae60"/>
+  
+  <circle cx="210" cy="50" r="6" fill="#f39c12"/>
+  <circle cx="210" cy="50" r="3" fill="#e67e22"/>
+  
+  <!-- Berries -->
+  <circle cx="80" cy="100" r="4" fill="#8b1538"/>
+  <circle cx="220" cy="90" r="3" fill="#c62d42"/>
+  <circle cx="85" cy="120" r="3" fill="#8b1538"/>
+  
+  <!-- Mint leaves -->
+  <ellipse cx="95" cy="70" rx="3" ry="8" fill="#27ae60" transform="rotate(-30 95 70)"/>
+  <ellipse cx="205" cy="75" rx="3" ry="8" fill="#27ae60" transform="rotate(20 205 75)"/>
+  
+  <!-- Fruit pieces inside -->
+  <circle cx="140" cy="95" r="2" fill="#ff6b9d" opacity="0.7"/>
+  <circle cx="160" cy="100" r="2" fill="#f39c12" opacity="0.7"/>
+  <circle cx="150" cy="125" r="2" fill="#8b1538" opacity="0.7"/>
+  <circle cx="155" cy="150" r="2" fill="#c62d42" opacity="0.7"/>
+</svg>

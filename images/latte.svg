@@ -1,0 +1,45 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="latteCup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f3e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9a876;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="latteMilk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fefcf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0ead6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="300" height="200" fill="#fefcf8"/>
+  
+  <!-- Saucer -->
+  <ellipse cx="150" cy="175" rx="90" ry="20" fill="#c9a876"/>
+  <ellipse cx="150" cy="173" rx="85" ry="17" fill="#f8f3e9"/>
+  
+  <!-- Cup (tall glass) -->
+  <path d="M85 100 L215 100 L210 165 L90 165 Z" fill="url(#latteCup)"/>
+  
+  <!-- Coffee layer -->
+  <rect x="90" y="140" width="120" height="20" fill="#6b4e37"/>
+  
+  <!-- Milk layer -->
+  <rect x="90" y="105" width="120" height="35" fill="url(#latteMilk)"/>
+  
+  <!-- Latte art - rosetta -->
+  <path d="M150 115 L140 125 Q150 130 160 125 L150 115" fill="#c9a876"/>
+  <path d="M150 115 L145 135 Q150 140 155 135 L150 115" fill="#c9a876"/>
+  <path d="M150 115 L150 145" stroke="#c9a876" stroke-width="1"/>
+  
+  <!-- Handle -->
+  <path d="M215 120 Q240 130 240 150 Q240 170 215 160" fill="none" stroke="#c9a876" stroke-width="5"/>
+  
+  <!-- Coffee beans decoration -->
+  <g transform="translate(60, 50)">
+    <ellipse rx="5" ry="8" fill="#3d2914" transform="rotate(-45)"/>
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="#6b4e37" stroke-width="1"/>
+  </g>
+  <g transform="translate(240, 40)">
+    <ellipse rx="5" ry="8" fill="#3d2914" transform="rotate(30)"/>
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="#6b4e37" stroke-width="1"/>
+  </g>
+</svg>
